@@ -1,4 +1,4 @@
-// Create plots: bar chart, bubble chart and gauge chart
+// Create plots: bar chart and bubble chart
 function createChart(id) {
     d3.json("samples.json").then((data) => {
         console.log(data)
@@ -8,7 +8,6 @@ function createChart(id) {
         console.log(filteredSample);
         // Get the top 10 OTUs
         var values = filteredSample.sample_values.slice(0, 10).reverse();
-        // console.log(values);
         var otuids = filteredSample.otu_ids.map(otuid => `OTU ${otuid}`).slice(0, 10).reverse();
         var otulabels = filteredSample.otu_labels.slice(0, 10).reverse();
 
@@ -73,6 +72,7 @@ function displayMetadata(id) {
 function optionChanged(id) {
     createChart(id);
     displayMetadata(parseInt(id));
+    createGaugeChart(parseInt(id));
 }
 
 // Create the default page
@@ -85,6 +85,7 @@ function init() {
         });
         createChart(data.names[0]);
         displayMetadata(parseInt(data.names[0]));
+        createGaugeChart(parseInt(data.names[0]))
     });
 }
 
