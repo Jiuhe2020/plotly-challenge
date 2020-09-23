@@ -55,7 +55,7 @@ function createChart(id) {
 
 // Display the metadata
 function displayMetadata(id) {
-    d3.json("../samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
         var filteredMetadata = data.metadata.filter(sample => sample.id === id)[0];
         console.log(filteredMetadata);
         var sampleMetadata = d3.select("#sample-metadata");
