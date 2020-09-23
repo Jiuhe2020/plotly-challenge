@@ -80,7 +80,7 @@ function optionChanged(id) {
 function init() {
     var dropdown = d3.select("#selDataset");
     // Generate the sample list to populate the select options
-    d3.json("./samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
         data.names.forEach(function(name) {
             dropdown.append("option").text(name).property("value");
         });
