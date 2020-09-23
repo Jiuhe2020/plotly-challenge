@@ -55,7 +55,7 @@ function createChart(id) {
 
 // Display the metadata
 function displayMetadata(id) {
-    d3.json("samples.json").then((data) => {
+    d3.json("../samples.json").then((data) => {
         var filteredMetadata = data.metadata.filter(sample => sample.id === id)[0];
         console.log(filteredMetadata);
         var sampleMetadata = d3.select("#sample-metadata");
@@ -80,7 +80,7 @@ function optionChanged(id) {
 function init() {
     var dropdown = d3.select("#selDataset");
     // Generate the sample list to populate the select options
-    d3.json("samples.json").then((data) => {
+    d3.json("./samples.json").then((data) => {
         data.names.forEach(function(name) {
             dropdown.append("option").text(name).property("value");
         });
