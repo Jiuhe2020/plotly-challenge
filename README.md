@@ -1,5 +1,5 @@
 # Belly Button Biodiversity
-[Bacteria](https://www.fertilitycenter.com/wp-content/uploads/2017/07/iStock-518090962.jpg)
+![Bacteria](https://www.fertilitycenter.com/wp-content/uploads/2017/07/iStock-518090962.jpg)
 ## Deployment Link
 https://jiuhe2020.github.io/plotly-challenge/
 
