@@ -14,7 +14,7 @@ This project utilizes Javascript, HTML5 and Plotly to create an interactive dash
   - Used `otu_ids` as the labels for the bar chart
   - Used `otu_labels` as the hovertext for the chart
 <p align="center">
-  <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Plotly_BarChart.png" height="50%" width="50%">
+  <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Plotly_BarChart.png" height="30%" width="30%">
 </p>
 
 - A Bubble Chart that displays each sample was created
@@ -24,7 +24,7 @@ This project utilizes Javascript, HTML5 and Plotly to create an interactive dash
   - Used `otu_ids` for the marker colors
   - Used `otu_labels` for the text values
 <p align="center">
-  <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Plotly_BubbleChart.png" height="50%" width="50%">
+  <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Plotly_BubbleChart.png" height="75%" width="75%">
 </p>
 
 - The sample metadata was displayed in a format of key-value pair from the metadata JSON object as each individual's demographic information
@@ -34,7 +34,7 @@ This project utilizes Javascript, HTML5 and Plotly to create an interactive dash
 
 - BONUS: A Gauge Chart was created to plot the weekly washing frequency of the individual.
 <p align="center">
-  <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Plotly_GaugeChart.png" height="30%" width="30%">
+  <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Plotly_GaugeChart.png" height="50%" width="50%">
 </p>
 
 - All of the plots will be updated when a new sample is selected.
