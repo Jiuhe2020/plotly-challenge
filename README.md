@@ -32,7 +32,7 @@ This project utilizes Javascript, HTML5 and Plotly to create an interactive dash
   <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Demographic_Info.png" height="25%" width="25%">
 </p>
 
-- BONUS: A Gauge Chart was created to plot the weekly washing frequency of the individual.
+- **BONUS**: A Gauge Chart was created to plot the weekly washing frequency of the individual.
 <p align="center">
   <img src="https://github.com/Jiuhe2020/plotly-challenge/blob/master/images/Plotly_GaugeChart.png" height="40%" width="40%">
 </p>
